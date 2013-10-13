@@ -3,6 +3,14 @@ Colors:
 Yellow: #efd216
 */
 
+body {
+	padding: 0;
+	background: #fff;
+}
+
+header {
+	margin-top: 8px;
+}
 
 .navbar .nav > li > a {
 	font-family: 'Open Sans', sans-serif;
