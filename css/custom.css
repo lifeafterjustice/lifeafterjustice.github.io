@@ -1,0 +1,17 @@
+/*
+Colors:
+Yellow: #efd216
+*/
+
+
+.navbar .nav > li > a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .nav > .active > a {
+	color: #666 !important;
+}
+
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
+	border-bottom: 3px solid #efd216 !important;
+}
