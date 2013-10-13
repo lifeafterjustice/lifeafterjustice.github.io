@@ -10,6 +10,8 @@ $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
 
-body { background: yellow; }
+body { background: blue; }
 
-.page { @include container; }
+.page {
+	@include container;
+}
