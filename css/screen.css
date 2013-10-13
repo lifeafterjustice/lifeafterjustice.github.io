@@ -63,24 +63,98 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 13, ../_sass/screen.scss */
+/* line 14, ../_sass/screen.scss */
 body {
-  background: blue;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 15, ../_sass/screen.scss */
-.page {
+/* line 18, ../_sass/screen.scss */
+.container {
   *zoom: 1;
-  max-width: 34em;
-  _width: 34em;
+  max-width: 59em;
+  _width: 59em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
 }
 /* line 38, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.page:after {
+.container:after {
   content: "";
   display: table;
   clear: both;
+}
+
+/* line 22, ../_sass/screen.scss */
+header {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 26, ../_sass/screen.scss */
+header h2 {
+  float: left;
+}
+
+/* line 30, ../_sass/screen.scss */
+nav {
+  float: right;
+}
+/* line 33, ../_sass/screen.scss */
+nav ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+/* line 42, ../_sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 53, ../_sass/screen.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+/* line 61, ../_sass/screen.scss */
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+/* line 66, ../_sass/screen.scss */
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* line 71, ../_sass/screen.scss */
+h3 {
+  line-height: 27px;
+  font-size: 18px;
+}
+
+/* line 77, ../_sass/screen.scss */
+h4,
+h5 {
+  line-height: 18px;
+}
+
+/* line 81, ../_sass/screen.scss */
+h4 {
+  font-size: 14px;
+}
+
+/* line 85, ../_sass/screen.scss */
+h5 {
+  font-size: 12px;
 }
