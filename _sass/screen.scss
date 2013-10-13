@@ -1,0 +1,15 @@
+// Imports
+@import 'compass';
+@import "compass/reset";
+@import "susy";
+
+// Grid
+$total-columns  : 7;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+
+body { background: yellow; }
+
+.page { @include container; }

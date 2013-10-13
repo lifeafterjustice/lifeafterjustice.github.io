@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Life After Justice
 markdown: redcarpet
 pygments: true
+permalink: /:year/:month/:day/:title
