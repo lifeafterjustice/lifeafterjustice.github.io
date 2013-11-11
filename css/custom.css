@@ -22,4 +22,6 @@ header {
 
 .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
 	border-bottom: 3px solid #efd216 !important;
+	margin-left: 0 !important;
+	padding: 0 0 !important;
 }
