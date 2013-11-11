@@ -398,7 +398,7 @@ header {
 }
 
 #page-title h2 {
-	font-family: "Droid Sans" !important;
+	font-family: "Open Sans" !important;
 	color: #666;
 	text-shadow: 1px 1px 0px #fff;
 	padding: 10px 20px 5px 20px;
@@ -867,7 +867,7 @@ html[xmlns] .slides {display: block;}
 	padding: 15px 0;
 	border-bottom: 1px solid #e9e9e9;
 	margin-bottom: 15px;
-	font-family: "Droid Sans";
+	font-family: "Open Sans";
 	font-size: 18px;
 	text-align: center;
 
