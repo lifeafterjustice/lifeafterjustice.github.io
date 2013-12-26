@@ -30,6 +30,16 @@ textarea {
 	height: 100px;
 }
 
+.top-bar-section ul li:hover > a {
+	background: none !important;
+	color: #ddd !important;
+}
+
+.top-bar-section ul li:hover > a.button {
+	background: #007ba1 !important;
+	color: #fff !important;
+}
+
 
 /* Custom */
 
@@ -68,7 +78,7 @@ li.name a {
 }
 
 .about, .founders, .bios {
-	padding: 20px 0;
+	padding: 40px 0;
 }
 
 .about {
