@@ -77,7 +77,7 @@ li.name a {
 	padding: 10px 0 10px 20px;
 }
 
-.about, .founders, .bios {
+.about, .founders {
 	padding: 40px 0;
 }
 
@@ -106,6 +106,10 @@ li.name a {
 
 .founder p {
 	margin-top: 20px;
+}
+
+.bios {
+	padding: 0 0 40px;
 }
 
 
