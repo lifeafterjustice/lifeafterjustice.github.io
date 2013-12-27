@@ -161,3 +161,8 @@ footer a:hover {
 	height: 125px;
 }
 
+@media only screen and (max-width: 40em) {
+	img.logo {
+		width: 100px;
+	}
+}
