@@ -170,7 +170,7 @@ footer a:hover {
 
 @media only screen and (max-width: 40em) {
 	img.logo {
-		width: 50%;
+		width: 70%;
 	}
 
 	.top-bar-section li a:not(.button) {
