@@ -1,24 +1,9 @@
-// Navigation
-
-$(document).ready(function() {
-	var pathname = window.location.pathname;
-
-	$(".nav li").each(function(index) {
-	    if (pathname.toUpperCase().indexOf($(this).text().toUpperCase()) != -1)
-	        $(this).addClass("active");
-	});
-
-	if ($(".nav li.active").length == 0)
-	    $("li#home").addClass("active");
-});
-
-
 // Contact Form
 
 $('#ajax-form').submit(function(){
   $.ajax({
     dataType: 'jsonp',
-    url: "http://getsimpleform.com/messages/ajax?form_api_token=39c8f9e5a2de15ad63469475702522b9",
+    url: "http://getsimpleform.com/messages/ajax?form_api_token=59d35f9c46dd2e5e822d7c15d39999ff",
     data: $('#ajax-form').serialize()
   }).done(function() {
     //callback which can be used to show a thank you message
