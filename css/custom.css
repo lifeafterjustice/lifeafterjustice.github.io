@@ -64,6 +64,14 @@ li.name a {
 	line-height: 75px;
 }
 
+.fa-circle {
+	color: #777;
+}
+
+.top-bar-section li a.social_link {
+	padding: 0;
+}
+
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
