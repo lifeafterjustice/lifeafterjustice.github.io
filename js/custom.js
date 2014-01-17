@@ -3,7 +3,7 @@
 $('#ajax-form').submit(function(){
   $.ajax({
     dataType: 'jsonp',
-    url: "http://getsimpleform.com/messages/ajax?form_api_token=59d35f9c46dd2e5e822d7c15d39999ff",
+    url: "http://getsimpleform.com/messages/ajax?form_api_token=3811ee3a869574d6e8f0c02910c19c14",
     data: $('#ajax-form').serialize()
   }).done(function() {
     //callback which can be used to show a thank you message
